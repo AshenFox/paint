@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="containter" id="paint_cont">	
+
+		<canvas id="paint" width="400" height="600" ></canvas>
+
+		<div class="controls_cont" id="controls_cont">
+			
+			<div class="clear_cont" id="clear_cont">
+				<div class="clear_buttons" id="clearLatest"><img src="img/previous.png"></div>
+				<div class="clear_buttons" id="returnLatest"><img src="img/next.png"></div>
+				<div class="clear_buttons" id="clearAll"><img src="img/garbage.png"></div>
+				
+			</div>
+
+			<div class="color_cont" id="color_cont">
+				
+
+				<div class="grid_add_color_cont" >
+					<div class="grid_add_color_activator" ></div>
+					<div id="grid_add_color"><img id="grid_add_png" src="img/add.png"></div>
+				</div>
+			</div>
+
+			<div class="color_picker" id='color_picker'>
+				<div class="color_picker_elwraper">
+					<div class='block_cont'>
+						<canvas id="color_block" height="150" width="150"></canvas>
+	  					<div class='scroll_picker' id='block_scroll'></div>
+					</div>
+	  				
+	  				<div class='strip_cont'>
+	  					<canvas id="color_strip" height="150" width="8"></canvas>
+	  					<div class='scroll_picker' id='strip_scroll'></div>
+	  				</div>
+
+	  				<div id="picker_add_color"><img id="picker_add_png" src="img/add.png"></div>
+	  				<div id="picker_close"><img id="delete_png" src="img/delete.png"></div>
+  				</div>
+			</div>
+
+			<div class="regimes_cont" id="regimes_cont">
+				<div class="reg_buttons" id="line"><img src="img/line.png" id="line_img"></div>
+				<div class="reg_buttons" id="square"><img src="img/square.png" id="square_img"></div>
+				<div class="reg_buttons" id="sphere"><img src="img/circle.png" id="sphere_img"></div>
+				<div class="reg_buttons" id="bucket"><img src="img/paint.png" id="bucket_img"></div>
+			</div>
+
+			<div class="thickness_cont" id="thickness_cont">
+				<div class='scroll_bar'>
+					<div class='bar' id='bar'>
+						<div class='scroll' id='scroll'></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+<!-- 	<input id="toggle" type="checkbox" checked>
+	<h2>Canvas Color Picker</h2> -->
+
+	
+
+	<script src="script.js"></script>
+</body>
+</html>

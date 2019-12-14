@@ -1,0 +1,15 @@
+{
+  "name": "10.10.2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "deploy": "gh-pages -d directory"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://HoarFox.github.io/paint",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
